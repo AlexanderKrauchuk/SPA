@@ -1,0 +1,82 @@
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.link a{
+display: inline;
+color: #FFFFFF;
+margin-left: 1em;
+border-radius: 4;
+left: 55px;
+}
+.profile {
+font-size: 16px;
+line-height: 23px;
+height: 100%;
+padding: 1.25rem;
+}
+.profile button {
+    margin: 5px 0px 20px 15px;
+}
+.stats {
+font-size: 16px;
+line-height: 23px;
+padding: 1.25rem
+}
+.cardhead {
+    padding: .75rem 1.25rem;
+background-color: rgba(0, 0, 0, 0.03) ;
+text-align: left;
+padding-top: 16px;
+font-size: 16px;
+line-height: 18px;
+border-bottom: 1px solid rgba(0,0,0,.125);
+}                                                   
+.cards {
+display: flex;
+flex-wrap: wrap;
+padding: 64px 0px 0px 55px;  
+width: 100%;  
+flex-direction: row;  
+align-items: flex-start;                     
+}
+footer {
+background-color: #F5F5F5 ;
+height: 56px;
+display: flex;
+width: 100%;
+}
+.rights {
+padding: 15px 0px 0px 20px;
+}
+.block_table {
+padding: 25px 0px 25px 55px;
+}
+td, th {
+border: 2px solid #DEE2E6; 
+height: 1.1em;
+text-align: left;
+padding: 5px 15px 5px 15px;
+}
+.card {
+position: relative;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-direction: column;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border: 1px solid rgba(0,0,0,.125);
+border-radius: .25rem;
+}
+@media (min-width: 1200px) {
+.container {
+    max-width: 1140px;
+}
+}
