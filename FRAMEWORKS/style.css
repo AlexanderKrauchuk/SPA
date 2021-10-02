@@ -80,3 +80,7 @@ border-radius: .25rem;
     max-width: 1140px;
 }
 }
+.container {
+    display: flex;
+flex-flow: column nowrap;
+}
